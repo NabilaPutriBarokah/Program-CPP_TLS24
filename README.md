@@ -1,7 +1,7 @@
 # Program-CPP_TLS24
 #include <iostream>
-#include <vector>   // To store the data of the subtraction process
-#include <iomanip>  // For formatting the output
+#include <vector>
+#include <iomanip>  
 
 // Function to display the graph of the subtraction process
 void printGraph(const std::vector<int>& data) {
