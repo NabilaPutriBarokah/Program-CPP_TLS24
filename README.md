@@ -3,7 +3,7 @@
 #include <vector>
 #include <iomanip>  
 
-// Function to display the graph of the subtraction process
+
 void printGraph(const std::vector<int>& data) {
     for (int i = 0; i < data.size(); i++) {
         std::cout << std::setw(2) << i << ": ";
@@ -16,9 +16,9 @@ void printGraph(const std::vector<int>& data) {
 
 int main() {
     std::vector<int> data;
-    int initialValue = 51;  // Initial odd value to start subtracting from
-    int subtractor = 7;     // Subtracting an odd number
-    int limit = 1;          // Minimum limit must be odd
+    int initialValue = 51;   
+    int subtractor = 7;     
+    int limit = 1;          
 
     std::cout << "Subtraction process starts from " << initialValue << " with subtractor " << subtractor << "\n";
 
